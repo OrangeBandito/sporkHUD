@@ -3062,6 +3062,142 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		LemonMilk40
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		LemonMilk44
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk"
+				"tall"		"44"
+				"antialias" "1"
+			}
+		}
+		LemonMilk48
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		LemonMilk52
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk"
+				"tall"		"52"
+				"antialias" "1"
+			}
+		}
+		LemonMilk56
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
+		//LemonMilk bold
+		LemonMilkbold12
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk bold"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		LemonMilkbold16
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk bold"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		LemonMilkbold24
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk bold"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		LemonMilkbold32
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk bold"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		LemonMilkbold36
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk bold"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		LemonMilkbold40
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		LemonMilkbold44
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk"
+				"tall"		"44"
+				"antialias" "1"
+			}
+		}
+		LemonMilkbold48
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		LemonMilkbold52
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk"
+				"tall"		"52"
+				"antialias" "1"
+			}
+		}
+		LemonMilkbold56
+		{
+			"1"
+			{
+				"name"		"Lemon/Milk"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
 	}
 
 	// Fonts I'm using
