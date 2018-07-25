@@ -47,13 +47,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
+		"xpos"			"76.9"	[$WIN32]
 		"ypos"			"33"	[$WIN32]
-		"zpos"			"2"
+		"zpos"			"0"
 		"wide"			"55"	[$WIN32]
 		"tall"			"55"	[$WIN32]
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
@@ -61,33 +61,57 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
-		"ypos"			"51"	[$WIN32]
+		"xpos"			"74"
+		"ypos"			"48"	[$WIN32]
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"18"
+		"wide"			"60"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"LemonMilk32"
-		"fgcolor"		"255 120 0 255"
+		"font"			"LemonMilk40"
+		"fgcolor"		"White"
 	}
 	"PlayerStatusHealthValueBG"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"78"
-		"ypos"			"53"	[$WIN32]
+		"xpos"			"76"
+		"ypos"			"50"	[$WIN32]
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"18"
+		"wide"			"60"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"LemonMilk32"
+		"font"			"LemonMilk40"
 		"fgcolor"		"10 10 10 210"
+	}
+	"TeamIndicator"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamIndicator"
+		"xpos"			"72"
+		"ypos"			"40"
+		"zpos"			"2"
+		"wide"			"64"
+		"tall"	 		"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible" 		"1" 
+		"enabled" 		"1"
+		"image"			"../hud/color_panel_brown"
+		"scaleImage"		"1"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		
+		"src_corner_height"		"40"				// pixels inside the image
+		"src_corner_width"		"40"			
+		"draw_corner_width"		"10"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"10"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
@@ -111,8 +135,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
-		"ypos"			"0"
+		"ypos"			"-5"
 		"zpos"			"7"
 		"wide"			"32"
 		"tall"			"32"
